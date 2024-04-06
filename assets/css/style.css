@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  background-color: black;
+  margin: 0%;
+  font-family: "Raleway", sans-serif; /*Fuente pedida*/
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.header-iguana {
+  width: 100%;
+  height: 100vh; /*Para ajustar imagen*/
+  background-image: url(../img/bg-header.jpg);
+  background-position: top; /*Vista imagen completa*/
+  background-size: cover;
+}
+
+.paragraph-photo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 6.6rem;
+  padding-top: 2.8rem;
+  padding-bottom: 4rem;
+}
+
+.container-paragraph {
+  width: 29rem;
+  color: #ffffff;
+  text-align: start;
+  padding-top: 4.7rem;
+  padding-bottom: 4.7rem;
+}
+
+main {
+  background-color: #1e1a13;
+  color: #ffffff;
+  height: 348px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 4.6rem;
+}
+
+.text-icon {
+  /*Dirección -->*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15rem;
+  padding-top: 3.1rem;
+}
+
+.icon {
+  /* Dirección abajo*/ /*Primera clase*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 7.5rem;
+}
+.icon2:hover {
+  /*Segunda clase*/
+  color: greenyellow; /* Cambio color texto del icono*/
+  transition: all 0.2s ease-in-out; /*Efecto Grow*/
+  transform: scale(1.5); /*Efecto Grow*/
+}
+
+.text {
+  padding-top: 1.1rem;
+}
+
+.container-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4.5rem;
+}
+
+footer {
+  background-color: #1e1a13;
+  color: #ffffff;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
